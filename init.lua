@@ -1,1 +1,3 @@
 require("dom")
+require("plugins")
+

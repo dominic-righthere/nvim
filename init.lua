@@ -1,4 +1,4 @@
-language en_US
+language=en_US
 
 require("dom")
 require("plugins")

@@ -22,6 +22,15 @@ return require('packer').startup(function(use)
         end,
     }
     use('tpope/vim-fugitive')
+    use('tpope/vim-surround')
+    use('vim-scripts/ReplaceWithRegister')
+
+    use('numToStr/Comment.nvim')
+    use('nvim-tree/nvim-tree.lua')
+    use('nvim-lualine/lualine.nvim')
+
+    use('christoomey/vim-tmux-navigator')
+
     use({ 'rose-pine/neovim', as = 'rose-pine' })
     use {
         'VonHeikemen/lsp-zero.nvim',

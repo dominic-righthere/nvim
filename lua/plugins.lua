@@ -27,6 +27,10 @@ return require('packer').startup(function(use)
     use('tpope/vim-surround')
     use('alvan/vim-closetag')
     use('vim-scripts/ReplaceWithRegister')
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
 
     use('numToStr/Comment.nvim')
     use('nvim-tree/nvim-tree.lua')

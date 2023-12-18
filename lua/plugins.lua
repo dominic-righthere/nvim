@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
     })
 
     use('numToStr/Comment.nvim')
-    use('nvim-tree/nvim-tree.lua')
+    -- use('nvim-tree/nvim-tree.lua')
     use('nvim-lualine/lualine.nvim')
 
     use('christoomey/vim-tmux-navigator')
